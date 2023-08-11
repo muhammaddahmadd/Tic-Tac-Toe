@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  integrity="sha384-KlX6ce3pVfEeAUMmH6GgSLKjd6D3xZ8TwQt8pgA7vIfpfV9S4WlAiQ0oSknUENep"
+  crossorigin="anonymous"
+/>
+
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>PlayTicTacToe.com</li>
+      </ul>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/muhammaddahmadd/" target="_blank">By    
+            <img src="\Instagram_icon.png.webp" width="20" height="20">@muhammaddahmadd
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+    <div class="gameContainer">
+      <div class="container">
+          <div class="box bt-0 bl-0"><span class="boxtext"></span></div>
+          <div class="box bt-0"><span class="boxtext"></span></div>
+          <div class="box bt-0 br-0"><span class="boxtext"></span></div>
+          <div class="box bl-0"><span class="boxtext"></span></div>
+          <div class="box"><span class="boxtext"></span></div>
+          <div class="box br-0"><span class="boxtext"></span></div>
+          <div class="box bl-0 bb-0"><span class="boxtext"></span></div>
+          <div class="box bb-0"><span class="boxtext"></span></div>
+          <div class="box bb-0 br-0"><span class="boxtext"></span></div>
+      </div>
+      <div class="gameinfo">
+        <h1>Welcome to Tic Tack Toe</h1>
+        <div>
+          <label for="playerX">Player One:</label>
+          <input type="text" id="playerX" />
+        </div>
+        <div>
+          <label for="playerO">Player Two:</label>
+          <input type="text" id="playerO" />
+        </div>
+        <span class="info">Turn for Player One</span>
+        <button id="reset">Reset</button>
+      </div>      
+    <div class="imgbox">
+      <img src="excited.gif" alt="" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
